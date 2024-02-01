@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 100vw;
+  height: 7vh;
+  padding: 1% 10%;
+  background-color: #e6e9f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hlinks ul {
+  display: flex;
+  gap: 30px;
+}
+
+.hlinks ul li {
+  list-style: none;
+}
+
+.hlinks ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(8, 8, 8);
+  cursor: pointer;
+  border-radius: 30px;
+  position: relative;
+}
+
+.hlinks ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(102, 92, 92);
+  height: 2px;
+  width: 0%;
+  transition: 2s ease;
+}
+
+.hlinks ul li a:hover::after {
+  width: 100%;
+  color: rgb(102, 92, 92);
+}
+
+i.bx-menu-alt-right {
+  display: none;
+font-size: 30px;
+color: rgb(19, 18, 18);
+}
+
+i.bx-x {
+  display: none;
+}
+
+.btn {
+  border: 1px solid black;
+  background-color: rgb(204, 203, 202);
+  border-radius: 30px;
+  padding: 6px 15px;
+  font-size: 17px;
+  color: black;
+  transition: bottom ease-in 9s;
+}
+
+.btn:hover {
+  background-color: rgb(77, 74, 74);
+  outline: 3px solid orange;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 10%;
+  height: 90vh;
+
+}
+
+.hright {
+  display: flex;
+ 
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 80%;
+  width: 80%;
+  
+}
+
+.hleft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 80%;
+
+}
+
+.hright p {
+  font-size: 22px;
+}
+.hright h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hright h4 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.otn {
+  margin-top: 20px;
+  padding: 3px 6px;
+  font-size: 20px;
+  background-color: orange;
+  border: none;
+  border-radius: 3px;
+  width: 122px;
+}
+.otn:hover {
+  background-color: rgb(163, 160, 160);
+  border: 1px solid orange;
+}
+
+.hleft img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner {
+  /* height: 10vh; */
+  background-color: skyblue;
+  height: calc(100vh - 90vh);
+}
+
+/* ....................secondn lauout..............................  */
+.secondlayout {
+  padding: 2% 10%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 40%;
+  /* border: 1px solid black; */
+}
+
+.rightlay img {
+  height: 300px;
+  object-fit: cover;
+}
+.ktn {
+  margin-left: 50px;
+}
+
+.leftlay {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  flex-basis: 40%;
+  /* border: 1px solid black; */
+}
+
+.leftlay h2 {
+  /* line-height: 10%; */
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.leftlay p {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(185, 216, 243);
+}
+
+.secondbanner {
+  height: calc(100vh - 90vh);
+  background-color: cyan;
+  padding: 0px 10%;
+  /* margin: 5% 10%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kkr {
+  padding: 3px 6px;
+  font-size: 20px;
+  background-color: orange;
+  border: none;
+  border-radius: 3px;
+}
+
+/* .....................third layout.........................   */
+
+.thirdlayout {
+  height: 90vh;
+  padding: 2% 10%;
+  background-color: #f5f6f8;
+}
+
+.toplayout {
+  padding: 5% 10%;
+  height: 100%;
+  background-color: red;
+  text-align: center;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 2% 10%;
+  height: 10vh;
+  background-color: rgb(93, 68, 117);
+}
+
+.flink i{
+  font-size: 30px;
+}
+
+.flink  ul {
+display: flex;
+gap: 30px;
+  
+
+}
+.flink ul li {
+  display: inline;
+  list-style: none;
+}
+
+.flink ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+  /* ......utility.......  */
+
+.blankspace{
+  height: 7vh;
+  background-color: red;
+}
+
+
+/* ......utility .......   */
+
+
+
+
+/* ................  services page css ..............    */
+
+
+.services{
+
+  height: 83vh;
+  background-color: antiquewhite;
+  padding: 2% 10%;
+}
+
+
+
+
+
+
+
+
+
+
+/* ................. portfolio ..................   */
+ 
+.portfolio{
+
+  height: 83vh;
+  background-color: rgb(240, 141, 11);
+  padding: 2% 10%;
+}
+
+
+
+
+
+/* ................. contact me ..................   */
+ 
+.contact{
+ 
+  height: 83vh;
+  background-color: rgb(53, 11, 240);
+  padding: 2% 10%;
+}
