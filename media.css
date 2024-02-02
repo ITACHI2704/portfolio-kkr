@@ -70,7 +70,13 @@ font-size: 15px;
   /* .......... contact .................   */
 
 .contact{
+  padding: 0;
+  height: 900px;
   flex-direction: column;
+gap: 20px;
+}
+.calbox{
+  width: 100%;
 }
 .formbox{
   flex-direction: column;
@@ -84,10 +90,40 @@ font-size: 15px;
   width: 100%;
 }
 
+.leftform{
+  padding: 0;
+}
+
 .rightform input{
   /* margin-top: 10px; */
   padding: 4px;
   width: 100%;
+}
+
+.calldata h3{
+  font-size: 14px;
+}
+
+
+/* ................... service...............   */
+
+
+.services{
+  padding: 2%;
+min-height: 1180px;
+}
+
+.scontainer{
+  padding: 5% 2% 2% 2%;
+}
+
+.sbox{
+  flex-direction: column;
+  
+}
+
+.inbox{
+  /* padding:  1% 2%; */
 }
  
 
