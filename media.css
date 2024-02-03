@@ -1,21 +1,20 @@
 @media only screen and (max-width: 778px) {
- 
   .hlinks {
     height: 100vh;
-    width: 100vw;
-    background-color: rgb(196, 205, 247);
+    width: 60vw;
+    background-color: rgb(194, 203, 243);
+    -webkit-backdrop-filter: blur(gb(194, 203, 243));
     position: fixed;
     top: 0%;
     right: 0%;
     z-index: 1111111;
-   
-  transform: translateX(800px);
+    transform: translateX(800px);
   }
 
   i.bx-x {
     position: absolute;
-    top: 5%;
-    right: 5%;
+    top: 2%;
+    right: 3%;
     font-size: 50px;
     color: white;
   }
@@ -23,34 +22,77 @@
   .hlinks ul {
     flex-direction: column;
     align-items: center;
-    padding-top: 20%;
+    padding-top: 45%;
   }
-
 
   i.bx-menu-alt-right {
     display: block;
+    font-size: 45px;
   }
-  
+
   i.bx-x {
     display: block;
+    border: 1px solid #1002e5;
+    background-color: #6992cf;
+    border-radius: 50%;
   }
 
   .header {
-    padding: 2% 6%;
+    padding: 2%  4%;
+    height: 9vh;
+  }
+  .blankspace{
+height: 9vh;
   }
 
   .hero {
+    margin-top: 3vh;
     padding: 2% 6%;
+    flex-direction: column;
   }
-  .hleft {
-    display: none;
+
+  .secondlayout {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .rightlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .box {
+    width: 100%;
+  }
+
+  .kkr {
+    font-size: 15px;
+  }
+
+  .banner h3 {
+    font-size: 13px;
+  }
+
+  .rightlay {
+    width: 100%;
+  }
+
+  .leftlay {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .leftlay h2 {
+    font-size: 22px;
   }
 
   .hright {
     width: 100vw;
     padding-left: 10%;
   }
-
 
   .flink ul {
     gap: 10px;
@@ -59,72 +101,91 @@
   .flink i {
     font-size: 20px;
   }
-  .footer{
+  .footer {
     padding: 2px 8px;
   }
-  .fcopy h3{
-font-size: 15px;
+  .fcopy h3 {
+    font-size: 15px;
   }
-
 
   /* .......... contact .................   */
 
-.contact{
-  padding: 0;
-  height: 900px;
+  .contact {
+    padding: 0;
+    height: 900px;
+    flex-direction: column;
+    gap: 6vh;
+    justify-content: space-around;
+  }
+  .calbox {
+    width: 100%;
+  }
+  .formbox {
+    flex-direction: column;
+    width: 100%;
+  }
+  .name,
+  .email {
+    width: 100%;
+  }
+  .rightform,
+  .leftform {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .leftform {
+    padding: 0 3%;
+    gap: 20px;
+  }
+
+  .rightform input {
+    /* margin-top: 10px; */
+    padding: 4px;
+    width: 100%;
+  }
+
+  .calldata h3 {
+    font-size: 14px;
+  }
+
+  /* ................... service...............   */
+
+  .services {
+    padding: 2%;
+    min-height: 1230px;
+  }
+
+  .scontainer {
+    padding: 5% 2% 2% 2%;
+    height: 95%;
+  }
+
+  .sbox {
+    flex-direction: column;
+  }
+
+
+
+
+  /* ......................./ Portfolio .......................    */
+  .portfolio{
+    padding: 2%;
+  }
+.pbox{
   flex-direction: column;
-gap: 20px;
+  gap: 20px;
+  height: 100vh;
 }
-.calbox{
+.pimg,
+.pdata {
+  height: 48vh;
+  padding:  0 2vh;
   width: 100%;
-}
-.formbox{
-  flex-direction: column;
-  width: 100%;
-}
-.name ,
-.email{
-  width: 100%;
-}
-.rightform,.leftform{
-  width: 100%;
-}
-
-.leftform{
-  padding: 0;
-}
-
-.rightform input{
-  /* margin-top: 10px; */
-  padding: 4px;
-  width: 100%;
-}
-
-.calldata h3{
-  font-size: 14px;
+  background-color: rgb(3, 245, 144);
 }
 
 
-/* ................... service...............   */
 
-
-.services{
-  padding: 2%;
-min-height: 1180px;
-}
-
-.scontainer{
-  padding: 5% 2% 2% 2%;
-}
-
-.sbox{
-  flex-direction: column;
-  
-}
-
-.inbox{
-  /* padding:  1% 2%; */
-}
- 
 
 }

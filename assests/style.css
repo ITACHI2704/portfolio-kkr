@@ -238,14 +238,30 @@ i.bx-x {
   padding: 5% 10%;
   height: 100%;
   background-color: red;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
 }
 
-.footer {
-  /* position: absolute;
-  bottom: 0%;
+
+.mslide{
+  display: flex;
+  height: 60vh;
+  background-color: green;
   width: 100%;
-  left: 0%; */
+  padding: 2vh;
+  overflow-x: scroll;
+}
+.mbox{
+  height: 100%;
+  width:90%;
+  border: 1px solid red;
+  /* overflow-x: scroll; */
+  }
+
+.footer {
+
   color: white;
   display: flex;
   justify-content: space-between;
@@ -254,6 +270,7 @@ i.bx-x {
   height: 10vh;
   background-color: rgb(217, 215, 250);
 }
+
 
 .flink i {
   font-size: 30px;
@@ -273,6 +290,8 @@ i.bx-x {
   color: white;
 }
 
+
+
 /* ......utility.......  */
 
 .blankspace {
@@ -288,6 +307,18 @@ i.bx-x {
   height: 83vh;
   background-color: antiquewhite;
   padding: 2% 10%;
+ 
+}
+
+.shead{
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 2vh 0;
+}
+
+.shead h1 {
+  text-decoration: underline;
+  
 }
 
 .scontainer {
@@ -393,10 +424,98 @@ i.bx-x {
 /* ................. portfolio ..................   */
 
 .portfolio {
-  height: 83vh;
+  /* height: 83vh; */
   background-color: rgb(240, 141, 11);
   padding: 2% 10%;
+  text-align: center;
 }
+
+
+.pcontainer{
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+
+}
+
+.pbox{
+  height: 40vh;
+  width: 100%;
+  background-color: antiquewhite;
+  margin-top: 5vh ;
+border: 1px solid black;
+display: flex;
+}
+
+
+.pimg{
+  width: 50%;
+  height: 100%;
+  border: 1px solid rgb(192, 15, 15);
+  position: relative;
+  /* z-index: -1; */
+}
+
+.arrow{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 20px;
+  width: 300px;
+  /* z-index: 1000; */
+  background-color: orangered;
+  animation: kriss infinite 2s ;
+}
+
+
+.pimg img{
+  height: 100%;
+  padding-right: 20px;
+  width: 100%;
+}
+
+
+.pdata{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  border: 1px solid rgb(192, 15, 15);
+}
+
+.pbtn{
+  width:22%;
+
+}
+.pbtn:hover{
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ................. contact me ..................   */
 
@@ -410,6 +529,16 @@ i.bx-x {
   background-color: #c6d1e9;
 }
 
+
+.chead{
+  text-align: center;
+  background-color: #c6d1e9;
+padding: 2vh 0;
+}
+
+.chead h1 {
+  text-decoration: underline;
+}
 .rightform {
   padding: 2% 4%;
   height: 90%;
@@ -435,6 +564,7 @@ i.bx-x {
   flex-direction: column;
   height: 90%;
   width: 45%;
+  margin-bottom: 10%;
   /* border: 1px solid red; */
   /* background-color: aliceblue; */
 }
@@ -444,13 +574,26 @@ i.bx-x {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  overflow: hidden;
 }
 
 .name {
   margin: 15px 0px;
+  width: 45%;
+ 
 }
 .email {
+  width: 45%;
   margin: 15px 0px;
+  
+}
+
+
+.name input{
+  width: 100%;
+}
+.email input{
+  width: 100%;
 }
 
 .number {
