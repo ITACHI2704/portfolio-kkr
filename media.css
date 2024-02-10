@@ -1,9 +1,12 @@
 @media only screen and (max-width: 778px) {
+  html {
+    font-size: 50%;
+  }
   .hlinks {
     height: 100vh;
-    width: 60vw;
-    background-color: rgb(194, 203, 243);
-    -webkit-backdrop-filter: blur(gb(194, 203, 243));
+    width: 70vw;
+    backdrop-filter:blur(10px) ;
+    /* background-color: rgb(194, 203, 243); */
     position: fixed;
     top: 0%;
     right: 0%;
@@ -15,7 +18,7 @@
     position: absolute;
     top: 2%;
     right: 3%;
-    font-size: 50px;
+    font-size: 5rem;
     color: white;
   }
 
@@ -27,33 +30,33 @@
 
   i.bx-menu-alt-right {
     display: block;
-    font-size: 45px;
   }
 
+  
   i.bx-x {
     display: block;
-    border: 1px solid #1002e5;
-    background-color: #6992cf;
+    border: 1px solid #a4a1cf;
+    color: black;
     border-radius: 50%;
   }
 
   .header {
-    padding: 2%  4%;
+    padding: 2% 4%;
     height: 9vh;
   }
-  .blankspace{
-height: 9vh;
+  .blankspace {
+    height: 9vh;
   }
 
   .hero {
-    margin-top: 3vh;
     padding: 2% 6%;
     flex-direction: column;
   }
 
   .secondlayout {
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    padding: 2% 5%;
   }
 
   .rightlay img {
@@ -65,28 +68,22 @@ height: 9vh;
     width: 100%;
   }
 
-  .kkr {
-    font-size: 15px;
-  }
-
-  .banner h3 {
-    font-size: 13px;
-  }
-
   .rightlay {
     width: 100%;
+    height: 40vh;
   }
 
   .leftlay {
-    margin-top: 20px;
+    height: 40vh;
+    margin-top: 2rem;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 8px;
+    gap: 0.8rem;
   }
 
-  .leftlay h2 {
-    font-size: 22px;
+  .thirdlayout {
+    padding: 2% 5%;
   }
 
   .hright {
@@ -98,21 +95,35 @@ height: 9vh;
     gap: 10px;
   }
 
-  .flink i {
-    font-size: 20px;
-  }
-  .footer {
-    padding: 2px 8px;
-  }
-  .fcopy h3 {
-    font-size: 15px;
+  i.bx-menu-alt-right {
+    font-size: 4rem;
+    margin-left: 3rem;
   }
 
+  .footer {
+    padding: 0.2rem 0.8rem;
+  }
+
+  .hright {
+    height: 40vh;
+  }
+
+  .hleft {
+    height: 40vh;
+  }
+
+  .first {
+    display: block;
+  }
+
+  .btn {
+    display: none;
+  }
   /* .......... contact .................   */
 
   .contact {
     padding: 0;
-    height: 900px;
+    /* height: 900px; */
     flex-direction: column;
     gap: 6vh;
     justify-content: space-around;
@@ -136,24 +147,18 @@ height: 9vh;
 
   .leftform {
     padding: 0 3%;
-    gap: 20px;
+    gap: 2rem;
   }
 
   .rightform input {
-    /* margin-top: 10px; */
-    padding: 4px;
+    padding: 0.4rem;
     width: 100%;
-  }
-
-  .calldata h3 {
-    font-size: 14px;
   }
 
   /* ................... service...............   */
 
   .services {
     padding: 2%;
-    min-height: 1230px;
   }
 
   .scontainer {
@@ -165,27 +170,58 @@ height: 9vh;
     flex-direction: column;
   }
 
-
-
-
   /* ......................./ Portfolio .......................    */
-  .portfolio{
+  .portfolio {
     padding: 2%;
   }
-.pbox{
-  flex-direction: column;
-  gap: 20px;
-  height: 100vh;
+  .pbox {
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+  }
+  .pimg,
+  .pdata {
+    height: 48vh;
+    padding: 0 2vh;
+    width: 100%;
+    background-color: rgb(3, 245, 144);
+  }
 }
-.pimg,
-.pdata {
-  height: 48vh;
-  padding:  0 2vh;
-  width: 100%;
-  background-color: rgb(3, 245, 144);
-}
 
+/* for laptops   */
 
+@media only screen and (min-width: 778px) {
+  html {
+    font-size: 62.5%;
+  }
 
+  .hero {
+    height: 90vh;
+  }
+  .first {
+    display: none;
+  }
 
+  .btn {
+    display: block;
+  }
+
+  .secondlayout {
+    height: 90vh;
+  }
+  .toplayout {
+    height: 90vh;
+  }
+  .mslide {
+    height: 60vh;
+  }
+  .services {
+    height: 83vh;
+  }
+  .pbox {
+    height: 40vh;
+  }
+  .contact {
+    height: 83vh;
+  }
 }

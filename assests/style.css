@@ -9,6 +9,7 @@
 
 html {
   overflow-x: hidden;
+  font-size: 62.5%;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
   height: 7vh;
   padding: 1% 10%;
   background-color: #e6e9f0;
+  backdrop-filter: blur ;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,12 +33,12 @@ body {
 }
 
 .hlinks {
-  transition: 0.4s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .hlinks ul {
   display: flex;
-  gap: 30px;
+  gap: 3rem;
 }
 
 .hlinks ul li {
@@ -45,11 +47,11 @@ body {
 
 .hlinks ul li a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
   color: rgb(8, 8, 8);
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 3rem;
   position: relative;
 }
 
@@ -59,7 +61,7 @@ body {
   bottom: 0;
   left: 0;
   background-color: rgb(102, 92, 92);
-  height: 2px;
+  height: .2rem;
   width: 0%;
   transition: 2s ease;
 }
@@ -71,7 +73,7 @@ body {
 
 i.bx-menu-alt-right {
   display: none;
-  font-size: 30px;
+  font-size: 3rem;
   color: rgb(19, 18, 18);
 }
 
@@ -80,18 +82,33 @@ i.bx-x {
 }
 
 .btn {
-  border: 1px solid black;
+  border: .1rem solid black;
   background-color: rgb(204, 203, 202);
-  border-radius: 30px;
-  padding: 6px 15px;
-  font-size: 17px;
+  border-radius: 3rem;
+  padding: .6rem 1.5rem;
+  font-size: 1.7rem;
   color: black;
   transition: bottom ease-in 9s;
 }
 
 .btn:hover {
   background-color: rgb(77, 74, 74);
-  outline: 3px solid orange;
+  outline: .3rem solid orange;
+}
+
+.first{
+  border: .1rem solid black;
+  background-color: rgb(231 27 12);
+  border-radius: 0.8rem;
+  padding: .6rem 1.5rem;
+  font-size: 1.7rem;
+  color: black;
+  transition: bottom ease-in 9s;
+  display: none;
+}
+
+.login{
+  display: flex;
 }
 
 .hero {
@@ -99,15 +116,13 @@ i.bx-x {
   justify-content: space-between;
   align-items: center;
   padding: 2% 10%;
-  height: 90vh;
 }
 
 .hright {
   display: flex;
-
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 2rem;
   height: 80%;
   width: 80%;
 }
@@ -121,30 +136,30 @@ i.bx-x {
 }
 
 .hright p {
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 .hright h1 {
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 700;
 }
 
 .hright h4 {
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 400;
 }
 
 .otn {
-  margin-top: 20px;
-  padding: 3px 6px;
-  font-size: 20px;
+  margin-top: 2rem;
+  padding: .3rem .6rem;
+  font-size: 2rem;
   background-color: orange;
   border: none;
-  border-radius: 3px;
-  width: 122px;
+  border-radius: .3rem;
+  width: 12.2rem;
 }
 .otn:hover {
   background-color: rgb(163, 160, 160);
-  border: 1px solid orange;
+  border: .1rem solid orange;
 }
 
 .hleft img {
@@ -153,15 +168,13 @@ i.bx-x {
   object-fit: cover;
 }
 .banner {
-  /* height: 10vh; */
-  background-color: skyblue;
+   background-color: skyblue;
   height: calc(100vh - 90vh);
 }
 
 /* ....................secondn lauout..............................  */
 .secondlayout {
   padding: 2% 10%;
-  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -173,15 +186,14 @@ i.bx-x {
   justify-content: center;
   height: 100%;
   width: 40%;
-  /* border: 1px solid black; */
-}
+  }
 
 .rightlay img {
-  height: 300px;
+  height: 30rem;
   object-fit: cover;
 }
 .ktn {
-  margin-left: 50px;
+  margin-left: 5rem;
 }
 
 .leftlay {
@@ -190,20 +202,18 @@ i.bx-x {
   display: flex;
   align-items: left;
   justify-content: center;
-  gap: 20px;
+  gap: 2rem;
   flex-direction: column;
   flex-basis: 40%;
-  /* border: 1px solid black; */
 }
 
 .leftlay h2 {
-  /* line-height: 10%; */
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 800;
 }
 
 .leftlay p {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 300;
   color: rgb(185, 216, 243);
 }
@@ -211,25 +221,23 @@ i.bx-x {
 .secondbanner {
   height: calc(100vh - 90vh);
   background-color: cyan;
-  padding: 0px 10%;
-  /* margin: 5% 10%; */
+  padding: 0rem 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .kkr {
-  padding: 3px 6px;
-  font-size: 20px;
+  padding: .3rem .6rem;
+  font-size: 2rem;
   background-color: orange;
   border: none;
-  border-radius: 3px;
+  border-radius: .3rem;
 }
 
 /* .....................third layout.........................   */
 
 .thirdlayout {
-  height: 90vh;
   padding: 2% 10%;
   background-color: #f5f6f8;
 }
@@ -247,7 +255,7 @@ i.bx-x {
 
 .mslide{
   display: flex;
-  height: 60vh;
+ 
   background-color: green;
   width: 100%;
   padding: 2vh;
@@ -257,7 +265,6 @@ i.bx-x {
   height: 100%;
   width:90%;
   border: 1px solid red;
-  /* overflow-x: scroll; */
   }
 
 .footer {
@@ -273,12 +280,12 @@ i.bx-x {
 
 
 .flink i {
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 .flink ul {
   display: flex;
-  gap: 30px;
+  gap: 3rem;
 }
 .flink ul li {
   display: inline;
@@ -295,8 +302,9 @@ i.bx-x {
 /* ......utility.......  */
 
 .blankspace {
+  display: hidden;
   height: 7vh;
-  background-color: red;
+
 }
 
 /* ......utility .......   */
@@ -333,7 +341,7 @@ i.bx-x {
 
   height: 100%;
   width: 100%;
-  gap: 20px;
+  gap: 2rem;
 
 }
 
@@ -342,7 +350,7 @@ i.bx-x {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 2rem;
   height: 100%;
   width: 100%;
  
@@ -352,7 +360,7 @@ i.bx-x {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 2rem;
   height: 100%;
   width: 100%;
 
@@ -367,34 +375,34 @@ i.bx-x {
   width: 100%;
   padding: 5%;
   background-color: green;
- border-radius: 2px ;
+ border-radius: .2rem ;
 }
 
 .inbox:hover{
-  border-bottom:  5px solid black;
-  border-right: 5px solid black;
+  border-bottom:  .5rem solid black;
+  border-right: .5rem solid black;
 }
 
 .sicon{
   display: flex;
   align-items: center;
   justify-content:center;
-  height: 50px;
-  width: 150px;
+  height: 5rem;
+  width: 15rem;
   background-color: white;
-  outline: 1px solid black;
+  outline: .1rem px solid black;
 }
 .sicon i{
-  font-size: 30px;
+  font-size: 3rem;
 }
 .sdata{
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 .sdata p{
   font-weight: 300;
 }
 .sdata h4{
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
   color: black;
 }
@@ -434,16 +442,15 @@ i.bx-x {
 .pcontainer{
   height: 100%;
   width: 100%;
-  border: 1px solid red;
+  border: .1rem solid red;
 
 }
 
 .pbox{
-  height: 40vh;
   width: 100%;
   background-color: antiquewhite;
   margin-top: 5vh ;
-border: 1px solid black;
+border: .1rem solid black;
 display: flex;
 }
 
@@ -451,7 +458,7 @@ display: flex;
 .pimg{
   width: 50%;
   height: 100%;
-  border: 1px solid rgb(192, 15, 15);
+  border: .1rem solid rgb(192, 15, 15);
   position: relative;
   /* z-index: -1; */
 }
@@ -460,9 +467,8 @@ display: flex;
   position: absolute;
   top: 10%;
   left: 10%;
-  height: 20px;
-  width: 300px;
-  /* z-index: 1000; */
+  height: 2rem;
+  width: 30rem;
   background-color: orangered;
   animation: kriss infinite 2s ;
 }
@@ -470,7 +476,7 @@ display: flex;
 
 .pimg img{
   height: 100%;
-  padding-right: 20px;
+  padding-right: 2rem;
   width: 100%;
 }
 
@@ -488,7 +494,7 @@ display: flex;
 
 }
 .pbtn:hover{
-  border: 1px solid black;
+  border: .1rem solid black;
 }
 
 
@@ -520,9 +526,7 @@ display: flex;
 /* ................. contact me ..................   */
 
 .contact {
-  height: 83vh;
-  /* background-color: rgb(128, 115, 187); */
-  padding: 2% 10%;
+   padding: 2% 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -548,10 +552,10 @@ padding: 2vh 0;
 }
 
 .rightform input {
-  font-size: 17px;
+  font-size: 1.7rem;
   color: black;
 
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   border: 1px solid black;
 }
 
@@ -559,7 +563,7 @@ padding: 2vh 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 4rem;
   padding: 2% 4%;
   flex-direction: column;
   height: 90%;
@@ -578,13 +582,13 @@ padding: 2vh 0;
 }
 
 .name {
-  margin: 15px 0px;
+  margin: 1.5rem 0rem;
   width: 45%;
  
 }
 .email {
   width: 45%;
-  margin: 15px 0px;
+  margin:1.5rem 0rem;
   
 }
 
@@ -598,18 +602,18 @@ padding: 2vh 0;
 
 .number {
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .comment {
-  font-size: 17px;
+  font-size: 1.7rem;
   color: black;
-  border: 1px solid black;
+  border: .1rem solid black;
   width: 100%;
 }
 
 .submit {
-  margin-top: 15px;
+  margin-top: 1.5rem;
   background-color: orange;
   border: none;
   cursor: pointer;
@@ -617,14 +621,14 @@ padding: 2vh 0;
 
 .submit:hover {
   /* border: 3px solid black; */
-  border-radius: 5px;
+  border-radius: .5rem;
 }
 
 .calbox {
   display: flex;
   width: 80%;
   /* border: 2px solid red; */
-  padding: 10px;
+  padding: 1rem;
 }
 
 .callicon {
@@ -632,8 +636,8 @@ padding: 2vh 0;
   align-items: center;
   justify-content: center;
   background-color: #859fd9;
-  height: 45px;
-  width: 45px;
+  height: 4.5rem;
+  width: 4.5rem;
   /* border: 2px solid black; */
 }
 
@@ -644,7 +648,7 @@ padding: 2vh 0;
 }
 
 .callicon i {
-  font-size: 40px;
-  padding: 3px;
+  font-size: 4rem;
+  padding: .3rem;
 }
 /* .................. Ending contact form ..................  */
