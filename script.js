@@ -19,3 +19,19 @@ cross.addEventListener("click", ()=>{
     
     })
 
+
+    //////////////////////////////////contact form 
+
+
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwwsYU3VzDbjdwtXqyCspldNzjJRDwUYQC_7A2hm6mHxYQz3RMk-CoONW-GJBkfkXrW/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+

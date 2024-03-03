@@ -149,7 +149,7 @@ i.bx-x {
 }
 
 .otn {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   padding: .3rem .6rem;
   font-size: 2rem;
   background-color: orange;
@@ -163,13 +163,24 @@ i.bx-x {
 }
 
 .hleft img {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   object-fit: cover;
 }
 .banner {
    background-color: skyblue;
   height: calc(100vh - 90vh);
+}
+
+
+
+.box{
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+
 }
 
 /* ....................secondn lauout..............................  */
@@ -220,7 +231,7 @@ i.bx-x {
 
 .secondbanner {
   height: calc(100vh - 90vh);
-  background-color: cyan;
+  background-color: skyblue;
   padding: 0rem 10%;
   display: flex;
   align-items: center;
@@ -296,6 +307,13 @@ i.bx-x {
   text-decoration: none;
   color: white;
 }
+
+
+.fcopy h3{
+  font-size: 2.5rem;
+}
+
+
 
 
 
@@ -547,6 +565,7 @@ padding: 2vh 0;
   padding: 2% 4%;
   height: 90%;
   width: 45%;
+
   /* border: 1px solid red; */
   /* background-color: aliceblue; */
 }
@@ -568,7 +587,7 @@ padding: 2vh 0;
   flex-direction: column;
   height: 90%;
   width: 45%;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
   /* border: 1px solid red; */
   /* background-color: aliceblue; */
 }
@@ -612,15 +631,19 @@ padding: 2vh 0;
   width: 100%;
 }
 
+
 .submit {
   margin-top: 1.5rem;
   background-color: orange;
   border: none;
+  padding: 0.5rem 0.8rem;
   cursor: pointer;
+  font-size: 2rem;
+  transition: .1s ease-out;
 }
 
 .submit:hover {
-  /* border: 3px solid black; */
+  border: .1rem solid black;
   border-radius: .5rem;
 }
 
@@ -651,4 +674,47 @@ padding: 2vh 0;
   font-size: 4rem;
   padding: .3rem;
 }
+
+.chead{
+  font-size: 2rem;
+}
+
+.portfolio {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.shead {
+  font-size: 2rem;
+  /* background-color: red; */
+}
+
+
+.rightform{
+  background-color: #6bc1cf;
+  /* backdrop-filter:blur(50px) ; */
+}
+ .leftform{
+  background-color: #e6e9f0;
+ }
+
+  .insta{
+
+  color: red;
+  /* background-color: red; */
+ }
+
+ .face{
+  color: blue;
+ }
+
+ .linke{
+  color: rgb(77, 77, 233);  
+ }
+
+ .twitter{
+  color:rgb(52 208 247);
+ }
+
+ 
 /* .................. Ending contact form ..................  */
