@@ -116,6 +116,7 @@ i.bx-x {
   justify-content: space-between;
   align-items: center;
   padding: 2% 10%;
+  background-color: aliceblue;
 }
 
 .hright {
@@ -189,6 +190,7 @@ i.bx-x {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: aliceblue;
 }
 
 .rightlay {
@@ -197,10 +199,12 @@ i.bx-x {
   justify-content: center;
   height: 100%;
   width: 40%;
+  border: 2px solid red;
+
   }
 
 .rightlay img {
-  height: 30rem;
+  height: 70%;
   object-fit: cover;
 }
 .ktn {
@@ -249,8 +253,86 @@ i.bx-x {
 /* .....................third layout.........................   */
 
 .thirdlayout {
+  height: 60vh;
   padding: 2% 10%;
-  background-color: #f5f6f8;
+  background-color:aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.main-scroll-div{
+  display: flex;
+ align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+}
+.cover::before{
+  position: relative;
+  content: "";
+  left: 0;
+  top: 0;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(90deg black , transparent);
+}
+
+.cover::after{
+  position: relative;
+  content: "";
+  left: 0;
+  top: 0;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(-90deg black , transparent);
+}
+
+.cover{
+  position: relative;
+  height: 50%;
+  width: 90%;
+}
+
+.scroll-images{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  position: relative;
+  scroll-behavior: smooth;
+  
+}
+
+.scroll-images::-webkit-scrollbar{
+  -webkit-apearance:none;
+}
+
+.child{
+  min-width: 60rem;
+  height: 30rem;
+  margin:.1rem 1rem;
+  cursor: pointer;
+  border: .1rem solid red;
+  overflow: hidden;
+  
+}
+.child-img{
+  height: 100%;
+  width: 100T;
+}
+
+.feed{
+  
+  width: 200%;
+  height: 40%;
+  border: 2px solid red;
 }
 
 .toplayout {
@@ -312,6 +394,70 @@ i.bx-x {
 .fcopy h3{
   font-size: 2.5rem;
 }
+
+
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.fourthlayout{
+
+    height: 60vh;
+    background-color: aliceblue;
+    padding: 2% 5%;
+  }
+
+
+.inbox2{
+  display: flex;
+  align-items:center;
+  justify-content:flex-start;
+  height: 30%;
+  width: 100%;
+  padding: 5%;
+  /* background-color: green; */
+ border-radius: .2rem ;
+}
+
+.sicon2{
+  border-radius: .3rem;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 5rem;
+  width: 8rem;
+  background-color: white;
+  outline: .3rem px solid black;
+}
+
+.bx{
+  font-size: 5rem;
+}
+
+
+.bor{
+  border-radius: .4rem;
+  border: .2rem solid black;
+}
+
+.knowledge{
+  background-color: aliceblue;
+  margin-top: 2rem;
+}
+
+.scontainer1 {
+  width: 100%;
+    height: 100%;
+ 
+
+}
+
+
 
 
 
@@ -716,5 +862,6 @@ padding: 2vh 0;
   color:rgb(52 208 247);
  }
 
- 
+
+
 /* .................. Ending contact form ..................  */

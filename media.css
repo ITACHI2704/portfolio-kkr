@@ -55,7 +55,7 @@
 
   .secondlayout {
     flex-direction: column;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     padding: 2% 5%;
   }
 
@@ -223,8 +223,18 @@
     margin-bottom: 10rem;
   }
 
-  
 
+  .lbox{
+    width: 100%;
+  }
+  
+  .rbox{
+    width: 100%;
+  }
+
+  .fourthlayout{
+    height: 90vh;
+  }
 
 
 
