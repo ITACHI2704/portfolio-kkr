@@ -151,8 +151,13 @@
   }
 
   .rightform input {
-    padding: 0.4rem;
+    padding: 1.1rem;
     width: 100%;
+    border-radius: 1rem
+  }
+
+  .submit1{
+    display:none;
   }
 
   /* ................... service...............   */
@@ -193,9 +198,7 @@
    
   }
 
-  .rightform , .leftform{
-    background-color: #c6d1e9;
-  }
+  
 
   .chead{
     font-size: 3rem;
@@ -216,7 +219,7 @@
   .fcopy h3 {
     font-size: 1.6rem;
     font-weight: 900;
-    color: black;
+    /* color: black; */
   }
 
   .leftform{

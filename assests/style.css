@@ -8,7 +8,6 @@
 }
 
 html {
-  overflow-x: hidden;
   font-size: 62.5%;
 }
 
@@ -24,7 +23,7 @@ body {
   width: 100vw;
   height: 7vh;
   padding: 1% 10%;
-  background-color: #e6e9f0;
+  background-color: #bed0d7;
   backdrop-filter: blur ;
   display: flex;
   justify-content: space-between;
@@ -32,6 +31,14 @@ body {
   overflow: hidden;
 }
 
+.logo h1{
+  font-family: cursive;
+}
+span{
+  font-family: cursive;
+  font-weight: 600;
+  color: red;
+}
 .hlinks {
   transition: 0.2s ease-in;
 }
@@ -82,25 +89,26 @@ i.bx-x {
 }
 
 .btn {
-  border: .1rem solid black;
+  border: 0.1rem solid #fff9f9;
   background-color: rgb(204, 203, 202);
-  border-radius: 3rem;
-  padding: .6rem 1.5rem;
+  border-radius: 1rem;
+  padding: 0.6rem 1.5rem;
   font-size: 1.7rem;
   color: black;
-  transition: bottom ease-in 9s;
+  transition: 0.6s ease-in-out;
 }
 
 .btn:hover {
+ 
   background-color: rgb(77, 74, 74);
   outline: .3rem solid orange;
 }
 
 .first{
-  border: .1rem solid black;
-  background-color: rgb(231 27 12);
+  border: 0.1rem solid #c74040;
+  background-color: #c2cbcf;
   border-radius: 0.8rem;
-  padding: .6rem 1.5rem;
+  padding: 1rem 1.5rem;
   font-size: 1.7rem;
   color: black;
   transition: bottom ease-in 9s;
@@ -150,17 +158,18 @@ i.bx-x {
 }
 
 .otn {
-  /* margin-top: 2rem; */
-  padding: .3rem .6rem;
+  padding: 1.3rem 0.6rem;
   font-size: 2rem;
-  background-color: orange;
+  background-color: #b5c4c7;
   border: none;
-  border-radius: .3rem;
+  border: 1px solid white;
+  border-radius: 1rem;
   width: 12.2rem;
 }
 .otn:hover {
-  background-color: rgb(163, 160, 160);
-  border: .1rem solid orange;
+  
+  background-color: rgb(137, 100, 187);
+
 }
 
 .hleft img {
@@ -169,8 +178,12 @@ i.bx-x {
   object-fit: cover;
 }
 .banner {
-   background-color: skyblue;
+   background-color: #bed0d7;
   height: calc(100vh - 90vh);
+}
+
+.banner h1{
+  text-transform: uppercase;
 }
 
 
@@ -199,7 +212,7 @@ i.bx-x {
   justify-content: center;
   height: 100%;
   width: 40%;
-  border: 2px solid red;
+
 
   }
 
@@ -208,10 +221,23 @@ i.bx-x {
   object-fit: cover;
 }
 .ktn {
+  padding: 1.3rem 0.6rem;
+  font-size: 2rem;
+  background-color: #4da3b4;
+  border: none;
+  border: 1px solid white;
+  border-radius: 1rem;
   margin-left: 5rem;
+  width: 12.2rem;
+  transition: 0.6s ease-in-out;
+}
+.ktn:hover{
+  background-color: #b5c4c7;
 }
 
+
 .leftlay {
+  
   height: 100%;
   width: 40%;
   display: flex;
@@ -223,19 +249,21 @@ i.bx-x {
 }
 
 .leftlay h2 {
+  font-family: roboto;
   font-size: 3.5rem;
   font-weight: 800;
 }
 
 .leftlay p {
+  font-family: cursive;
   font-size: 2rem;
   font-weight: 300;
-  color: rgb(185, 216, 243);
+  color: rgb(10 131 235);
 }
 
 .secondbanner {
   height: calc(100vh - 90vh);
-  background-color: skyblue;
+  background-color: #bed0d7;
   padding: 0rem 10%;
   display: flex;
   align-items: center;
@@ -243,11 +271,12 @@ i.bx-x {
 }
 
 .kkr {
-  padding: .3rem .6rem;
+  padding: 1.3rem 0.6rem;
   font-size: 2rem;
-  background-color: orange;
-  border: none;
-  border-radius: .3rem;
+  background-color:#b9cbcb;
+  border: 1px solid white;
+  border-radius: 1.1rem ;
+  /* border-radius: 0.3rem */
 }
 
 /* .....................third layout.........................   */
@@ -319,7 +348,7 @@ i.bx-x {
   height: 30rem;
   margin:.1rem 1rem;
   cursor: pointer;
-  border: .1rem solid red;
+  border: .1rem solid #878686;
   overflow: hidden;
   
 }
@@ -368,7 +397,7 @@ i.bx-x {
   align-items: center;
   padding: 2% 10%;
   height: 10vh;
-  background-color: rgb(217, 215, 250);
+  background-color:rgb(0 0 0);
 }
 
 
@@ -392,7 +421,9 @@ i.bx-x {
 
 
 .fcopy h3{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 2.5rem;
+  color: #9E9E9E;
 }
 
 
@@ -403,12 +434,18 @@ i.bx-x {
 
 }
 
+.banner1 h2{
+  font-family: 'Courier New', Courier, monospace;
+ text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
 
 .fourthlayout{
 
     height: 60vh;
     background-color: aliceblue;
-    padding: 2% 5%;
+    padding: 2% 4%;
   }
 
 
@@ -477,14 +514,14 @@ i.bx-x {
 
 .services {
   height: 83vh;
-  background-color: antiquewhite;
+  background-color: aliceblue;
   padding: 2% 10%;
  
 }
 
 .shead{
   text-align: center;
-  background-color: antiquewhite;
+  background-color: aliceblue;
   padding: 2vh 0;
 }
 
@@ -694,18 +731,18 @@ display: flex;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #c6d1e9;
+  background-color: aliceblue;
 }
 
 
 .chead{
   text-align: center;
-  background-color: #c6d1e9;
+  background-color:aliceblue;
 padding: 2vh 0;
 }
 
 .chead h1 {
-  text-decoration: underline;
+  color: #000;
 }
 .rightform {
   padding: 2% 4%;
@@ -717,6 +754,7 @@ padding: 2vh 0;
 }
 
 .rightform input {
+  border-radius: 1rem;
   font-size: 1.7rem;
   color: black;
 
@@ -765,12 +803,13 @@ padding: 2vh 0;
   width: 100%;
 }
 
-.number {
+.text {
   width: 100%;
   margin-bottom: 1.5rem;
 }
 
 .comment {
+  border-radius: 1.1rem;
   font-size: 1.7rem;
   color: black;
   border: .1rem solid black;
@@ -780,9 +819,10 @@ padding: 2vh 0;
 
 .submit {
   margin-top: 1.5rem;
-  background-color: orange;
-  border: none;
-  padding: 0.5rem 0.8rem;
+  background-color: #6e7dc3;
+  border-radius: 1rem;
+  border: 1px solid white;
+  padding: 1rem 1.8rem;
   cursor: pointer;
   font-size: 2rem;
   transition: .1s ease-out;
@@ -793,6 +833,17 @@ padding: 2vh 0;
   border-radius: .5rem;
 }
 
+.submit1 {
+  margin-top: 1.5rem;
+  background-color: #6e7dc3;
+  border-radius: 1rem;
+  border: 1px solid white;
+  padding: 1rem 1.8rem;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: .1s ease-out;
+ visibility: hidden;
+}
 .calbox {
   display: flex;
   width: 80%;
@@ -825,6 +876,11 @@ padding: 2vh 0;
   font-size: 2rem;
 }
 
+.chead h1{
+  color: #6a85c0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .portfolio {
   font-size: 2rem;
   text-decoration: underline;
@@ -832,22 +888,13 @@ padding: 2vh 0;
 
 .shead {
   font-size: 2rem;
-  /* background-color: red; */
 }
 
 
-.rightform{
-  background-color: #6bc1cf;
-  /* backdrop-filter:blur(50px) ; */
-}
- .leftform{
-  background-color: #e6e9f0;
- }
+
 
   .insta{
-
   color: red;
-  /* background-color: red; */
  }
 
  .face{
