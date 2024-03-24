@@ -15,9 +15,25 @@ navbar.style.transform = "translateX(0px)";
 
 cross.addEventListener("click", ()=>{
     navbar.style.transform = "translateX(800px)";
- 
-    
+  
     })
+
+
+
+
+
+
+
+
+      //////  portfolio form /////////////////
+
+  let arrow = document.querySelector(".arrow ");
+  let poster = document.querySelector(".pimg")
+
+poster.addEventListener("mouseover",()=>(
+  // console.log("yes it was working ")
+  arrow.style. visibility="visible" 
+))
 
 
     //////////////////////////////////contact form 

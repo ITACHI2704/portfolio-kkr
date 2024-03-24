@@ -99,8 +99,8 @@ i.bx-x {
 }
 
 .btn:hover {
- 
-  background-color: rgb(77, 74, 74);
+ border: 0.1rem solid red ;
+  background-color: rgb(126, 126, 126);
   outline: .3rem solid orange;
 }
 
@@ -158,22 +158,23 @@ i.bx-x {
 }
 
 .otn {
-  padding: 1.3rem 0.6rem;
-  font-size: 2rem;
-  background-color: #b5c4c7;
+  padding: 1.3rem 1rem ;
+  font-size: 1.8rem;
+  background-color: #b5c1c7;
   border: none;
   border: 1px solid white;
-  border-radius: 1rem;
-  width: 12.2rem;
+  display: block;
+  width:30%;
 }
+
 .otn:hover {
   
-  background-color: rgb(137, 100, 187);
+   background-color: rgb(139, 132, 151);
 
 }
 
 .hleft img {
-  /* width: 100%; */
+
   height: 100%;
   object-fit: cover;
 }
@@ -221,8 +222,8 @@ i.bx-x {
   object-fit: cover;
 }
 .ktn {
-  padding: 1.3rem 0.6rem;
-  font-size: 2rem;
+  padding: 1.4rem .6rem;
+  font-size: 1.8rem;
   background-color: #4da3b4;
   border: none;
   border: 1px solid white;
@@ -633,23 +634,34 @@ i.bx-x {
 /* ................. portfolio ..................   */
 
 .portfolio {
-  /* height: 83vh; */
-  background-color: rgb(240, 141, 11);
+background-image: url('images/shinchan-removebg-preview.png');
+background-position: center;
+background-repeat: repeat;
+
+  background-color:aliceblue;
   padding: 2% 10%;
   text-align: center;
 }
+
+.portfolio>h1{
+  font-weight: bold;
+  color: rgb(126, 151, 175);
+  font-family: cursive;
+}
+
+
 
 
 .pcontainer{
   height: 100%;
   width: 100%;
-  border: .1rem solid red;
+  
 
 }
 
 .pbox{
   width: 100%;
-  background-color: antiquewhite;
+  backdrop-filter:blur(10px) ;
   margin-top: 5vh ;
 border: .1rem solid black;
 display: flex;
@@ -657,21 +669,38 @@ display: flex;
 
 
 .pimg{
+  background-image: url('images/images.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+background-size: cover;
   width: 50%;
   height: 100%;
-  border: .1rem solid rgb(192, 15, 15);
+  /* border: .1rem solid rgb(192, 15, 15); */
   position: relative;
   /* z-index: -1; */
 }
 
 .arrow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 10%;
   left: 10%;
-  height: 2rem;
-  width: 30rem;
-  background-color: orangered;
-  animation: kriss infinite 2s ;
+  height: 8rem;
+  width: 15rem;
+  background-color: rgb(124, 139, 190);
+  border-radius: 1rem ;
+  outline: .1rem solid white ;
+  visibility: hidden;
+  display: none;
+  
+}
+
+.arrow i{
+  font-size: 10rem;
+  color: #c2cff5;
+  
 }
 
 
@@ -683,7 +712,10 @@ display: flex;
 
 
 .pdata{
+  backdrop-filter:blur(10px) ;
+  padding: 2% 4%;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   width: 50%;
   height: 100%;
@@ -696,6 +728,51 @@ display: flex;
 }
 .pbtn:hover{
   border: .1rem solid black;
+}
+
+
+.kotn {
+  padding: 1.3rem ;
+  font-size: 2rem;
+  background-color: #b5c1c7;
+  border: none;
+  border: 1px solid white;
+  display: block;
+  width:30%;
+}
+
+.kotn:hover {
+  outline: .5rem solid rgb(221, 201, 201) ;
+   background-color: rgb(191, 188, 196);
+
+}
+
+.utn {
+  border: 0.1rem solid #fff9f9;
+  background-color: rgb(204, 203, 202);
+  border-radius: 2rem;
+  padding: 1.3rem 1.5rem;
+  font-size: 1.7rem;
+  color: black;
+  transition: 0.6s ease-in-out;
+}
+
+.utn:hover {
+ border: 0.1rem solid red ;
+  background-color: rgb(126, 126, 126);
+  outline: .3rem solid rgb(114, 114, 114);
+ 
+}
+
+.pdata h1{
+  text-align: left;
+  font-size: 2.8rem ;
+}
+
+.pdata p{
+  font-size: 1.9rem;
+  color: red;
+  text-align: left;
 }
 
 
@@ -883,7 +960,7 @@ padding: 2vh 0;
 
 .portfolio {
   font-size: 2rem;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .shead {
@@ -912,3 +989,11 @@ padding: 2vh 0;
 
 
 /* .................. Ending contact form ..................  */
+
+
+
+
+/* ...........................portfolio form ................. */
+
+
+

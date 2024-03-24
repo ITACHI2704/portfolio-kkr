@@ -1,3 +1,19 @@
+
+
+
+/* RESPONSIVENESS SIZE BREAKPOINT 
+
+PHONE 600PX 
+TABLET 760PX
+LAPTOP 992PX 
+LARGE 1200PX  */
+
+
+
+
+
+
+
 @media only screen and (max-width: 820px) {
   html {
     font-size: 50%;
@@ -179,6 +195,21 @@
   .portfolio {
     padding: 2%;
   }
+  .portfolio>h1{
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(126, 151, 175);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+  .pdata{
+    order: 1;
+  }
+
+  
+
+  
   .pbox {
     flex-direction: column;
     gap: 2rem;
@@ -189,7 +220,19 @@
     height: 48vh;
     padding: 0 2vh;
     width: 100%;
-    background-color: rgb(3, 245, 144);
+   
+  }
+
+
+  .pdata{
+    padding: 2% 4%;
+  }
+
+  .pbtn{
+    width: 50%;
+  }
+  .kotn{
+    width: 60%;
   }
 
 
