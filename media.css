@@ -74,6 +74,9 @@ LARGE 1200PX  */
     /* margin-bottom: 2rem; */
     padding: 2% 5%;
   }
+  .secondbanner{
+    padding: 0rem 5%;
+  }
 
   .rightlay img {
     width: 100%;
@@ -117,7 +120,7 @@ LARGE 1200PX  */
   }
 
   .footer {
-    padding: 0.2rem 0.8rem;
+    padding: 0.2rem 2rem;
   }
 
   .hright {
@@ -183,8 +186,7 @@ LARGE 1200PX  */
   }
 
   .scontainer {
-    padding: 5% 2% 2% 2%;
-    height: 95%;
+      height: 95%;
   }
 
   .sbox {
@@ -228,12 +230,8 @@ LARGE 1200PX  */
     padding: 2% 4%;
   }
 
-  .pbtn{
-    width: 50%;
-  }
-  .kotn{
-    width: 60%;
-  }
+ 
+  
 
 
   .rightform , .leftform{
@@ -261,7 +259,7 @@ LARGE 1200PX  */
 
   .fcopy h3 {
     font-size: 1.6rem;
-    font-weight: 900;
+    font-weight: 500;
     /* color: black; */
   }
 
@@ -282,11 +280,36 @@ LARGE 1200PX  */
     height: 90vh;
   }
 
+.child{
+  min-width: 90%;
+}
 
+.rightlay{
+  height: 40%;
+}
+
+
+.maine {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.containere {
+  width: 100%;
+}
+
+.kotn ,.pbtn{
+  width: 30%;
+}
 
 }
 
-/* for laptops   */
+
+
+
+
+
+    /* for laptops  ///////////////////////////////////////////////////////// */
 
 @media only screen and (min-width: 820px) {
   html {
@@ -320,7 +343,7 @@ LARGE 1200PX  */
     height: 40vh;
   }
   .contact {
-    height: 77vh;
+    height: 74vh;
   }
 
   .rightform , .leftform{
