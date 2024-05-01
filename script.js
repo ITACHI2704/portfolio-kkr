@@ -22,13 +22,31 @@ cross.addEventListener("click", ()=>{
 
       //////  portfolio form /////////////////
 
-  let arrow = document.querySelector(".arrow ");
-  let poster = document.querySelector(".pimg")
 
-poster.addEventListener("mouseover",()=>(
-  // console.log("yes it was working ")
-  arrow.style. visibility="visible" 
-))
+let follow = document.querySelector(".follow");
+let exit = document.querySelector(".bx-exit");
+let btn = document.querySelector(".btn");
+let first = document.querySelector(".first");
+
+
+btn.addEventListener("click", ()=>{
+
+  follow.style.display = "block";
+
+})
+
+first.addEventListener("click", ()=>{
+
+follow.style.display = "block";
+
+})
+
+
+    exit.addEventListener("click", ()=>{
+
+      follow.style.display = "none";
+
+   })
 
 
 

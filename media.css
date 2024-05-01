@@ -195,7 +195,7 @@ LARGE 1200PX  */
 
   /* ......................./ Portfolio .......................    */
   .portfolio {
-    padding: 2%;
+    padding: 2% 4%;
   }
   .portfolio>h1{
     font-size: 4rem;
@@ -220,9 +220,13 @@ LARGE 1200PX  */
   .pimg,
   .pdata {
     height: 48vh;
-    padding: 0 2vh;
+
     width: 100%;
    
+  }
+
+  .layar{
+    padding: 0% 5%;
   }
 
 
@@ -277,7 +281,7 @@ LARGE 1200PX  */
   }
 
   .fourthlayout{
-    height: 90vh;
+    height: 108vh;
   }
 
 .child{
@@ -287,7 +291,24 @@ LARGE 1200PX  */
 .rightlay{
   height: 40%;
 }
+.sadatae p{
+  font-size: 1.3rem;
+}
 
+.sadatae1 p{
+  font-size: 1rem;
+}
+
+.containere1{
+  width: 100%;
+}
+
+.child p {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: black;
+ 
+}
 
 .maine {
   flex-direction: column;
@@ -298,8 +319,35 @@ LARGE 1200PX  */
   width: 100%;
 }
 
-.kotn ,.pbtn{
-  width: 30%;
+.kotn {
+  width: 37%;
+}
+
+.thirdlayout{
+  height: 40vh;
+}
+
+
+.follow{
+  padding-top: 40%;
+   backdrop-filter:blur(10px) ;
+}
+i.bx-exit {
+  color: #c41a45;
+  position: absolute;
+  top: 8%;
+  right: 10%;
+} 
+
+::-webkit-scrollbar {
+  width:1rem;
+}
+::-webkit-scrollbar-track {
+background-color: #e6e7e7;  
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#64b2ff , #ff22e6);
+  border-radius: 10px;
 }
 
 }
@@ -342,14 +390,32 @@ LARGE 1200PX  */
   .pbox {
     height: 40vh;
   }
+  .chead{
+    height: 3vh;
+  }
   .contact {
-    height: 74vh;
+    height: calc(100vh - 21vh);
   }
 
   .rightform , .leftform{
     font-size: 1.3rem
   }
 
+  .follow{
+    width:40%;
+    height: 50%;
+   left: 50%;
+   top: 10%;
+   border: 1px solid thistle;
+   
+  }
+
+  i.bx-exit{
+    color: #1f0531;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+  }
 
   
 
