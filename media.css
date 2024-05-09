@@ -18,6 +18,7 @@ LARGE 1200PX  */
   html {
     font-size: 50%;
   }
+
   .hlinks {
     height: 100vh;
     width: 70vw;
@@ -101,9 +102,6 @@ LARGE 1200PX  */
     gap: 0.8rem;
   }
 
-  .thirdlayout {
-    padding: 2% 5%;
-  }
 
   .hright {
     width: 100vw;
@@ -280,9 +278,7 @@ LARGE 1200PX  */
     width: 100%;
   }
 
-  .fourthlayout{
-    height: 108vh;
-  }
+ 
 
 .child{
   min-width: 90%;
@@ -291,13 +287,8 @@ LARGE 1200PX  */
 .rightlay{
   height: 40%;
 }
-.sadatae p{
-  font-size: 1.3rem;
-}
 
-.sadatae1 p{
-  font-size: 1rem;
-}
+
 
 .containere1{
   width: 100%;
@@ -323,9 +314,7 @@ LARGE 1200PX  */
   width: 37%;
 }
 
-.thirdlayout{
-  height: 40vh;
-}
+
 
 
 .follow{
@@ -387,9 +376,7 @@ background-color: #e6e7e7;
   .services {
     height: 83vh;
   }
-  .pbox {
-    height: 40vh;
-  }
+ 
   .chead{
     height: 3vh;
   }
